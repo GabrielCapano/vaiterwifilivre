@@ -1,9 +1,19 @@
-
 body {
 	height: 100%;
-	background: no-repeat url(../home_BG.jpg);
+	background: no-repeat url(../img/background.min.jpg);
 	font-family: 'OctinSpraypaintARgRegular', sans-serif;
 }
+
+p {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: #0A5047;
+}
+
+/* 	Responsive iframe taken from: 
+	CSS-Tricks: Fluid Width Video
+	http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+*/
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -16,9 +26,4 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
-p {
-	text-transform: uppercase;
-	font-size: 1.3em;
-	color: #0A5047;
 }
