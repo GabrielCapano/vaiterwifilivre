@@ -1,0 +1,19 @@
+*.db
+*.ai
+*.psd
+
+# sublime text workspace
+*.sublime-workspace
+
+#sftp configuration file
+sftp-config.json
+
+#OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Thumbnails
+._*
