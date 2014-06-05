@@ -1,14 +1,59 @@
 body {
-	background: no-repeat url(../img/background.min.jpg);
+	background: url(../img/background.min.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	font-family: 'OctinSpraypaintARgRegular', sans-serif;
 	margin-top: 2em;
 }
 
 p {
 	text-transform: uppercase;
-	font-size: 1.3em;
-	color: #0A5047;
+	font-size: 1.5em;
+	color: #043128;
+	margin-top: .5em;
 }
+
+.transition > * {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+#social {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#social a {
+	color: #BFE955;
+	font-size: 3em;
+	margin: 0 0.1em;
+}
+#social a i {
+
+}
+
+#social a:first-of-type {
+	margin-left: 0;
+}
+#social a:hover {
+	text-shadow: 0px 0px 5px #333;
+}
+#social a:hover i {
+	-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+#social a:active {
+	text-shadow: 0px 0px 5px #3C3C3C;
+}
+
 
 /* 	Responsive iframe taken from: 
 	CSS-Tricks: Fluid Width Video
