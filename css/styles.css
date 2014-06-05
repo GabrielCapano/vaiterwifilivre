@@ -1,7 +1,7 @@
 body {
-	height: 100%;
 	background: no-repeat url(../img/background.min.jpg);
 	font-family: 'OctinSpraypaintARgRegular', sans-serif;
+	margin-top: 2em;
 }
 
 p {
@@ -19,6 +19,7 @@ p {
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+	margin-top: 1.5em; /* custom */
 }
 .videoWrapper iframe {
 	position: absolute;
